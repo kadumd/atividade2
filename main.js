@@ -79,6 +79,8 @@ function clickSetasFuncao(params) {
 
 // dark mode 
 
+const html = document.querySelector('html')
+
 function mostrarHora() {
     const agora = new Date();
     let horas = agora.getHours();
