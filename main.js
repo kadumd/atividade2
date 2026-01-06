@@ -79,22 +79,6 @@ function clickSetasFuncao(params) {
 
 // dark mode 
 
-const html = document.querySelector('html')
-const primeiraMarca = document.querySelector('#primeiraMarca')
-
-primeiraMarca.addEventListener('click', () => {
-    if (html.className === "dark-mode") {
-        html.classList.remove("dark-mode")
-        return
-    } else {
-        html.classList.add("dark-mode")
-        return
-    }
-})
-
-
-
-
 function mostrarHora() {
     const agora = new Date();
     let horas = agora.getHours();
