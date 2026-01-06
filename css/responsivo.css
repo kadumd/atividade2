@@ -1,0 +1,458 @@
+@media screen and (max-width: 500px) {
+    #primeiroMenu {
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    #primeiroPng {
+        width: 100%;
+        object-fit: cover;
+        object-position: -160px 0px;
+        display: block;
+    }
+
+    #conteudoDaImagemUm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 75%;
+        width: 90%;
+    }
+
+    #primeiraMarca {
+        text-align: center;
+        font-size: 23px;
+        color: white;
+    }
+
+    #primeiroTextoDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 35%;
+    }
+
+    #primeiroHDois {
+        text-align: center;
+        width: 80%;
+        font-size: 20px;
+        color: white;
+    }
+
+    #primeiroHTres {
+        text-align: center;
+        font-size: 16px;
+        width: 80%;
+        color: white;
+    }
+
+    button {
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+        border: none;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 65px;
+        width: 65%;
+    }
+
+    .partirImagemPrimeirosIcones {
+        height: 35px;
+        width: 35px;
+    }
+
+    .estrela {
+        width: 20px;
+        --filtroDasEstrelas: hue-rotate(140deg) saturate(100%);
+        filter: var(--filtroDasEstrelas);
+    }
+
+    #cincoBarra {
+        font-size: 13px;
+    }
+
+    #segundoPng {
+        object-position: 0px -5px;
+    }
+
+    #terceiroPng {
+        object-position: -2px 0px;
+        transform: translateX(-8px);
+    }
+
+    #quartoPng {
+        object-position: 5px 0px;
+        transform: translateX(-16px);
+    }
+
+    #partirImagemDois {
+        transform: translateX(-8px);
+    }
+
+    #partirImagemTres {
+        transform: translateX(-16px);
+    }
+
+    #cincoBarra {
+        color: black;
+    }
+
+    /* segunda parte */
+
+    #segundaParte {
+        align-items: center;
+    }
+
+    #marcasegunda {
+        font-size: 23px;
+        height: max-content;
+        width: max-content;
+        color: var(--fontColorDarkMode);
+    }
+
+    #segundoMenu {
+        flex-direction: column;
+        align-items: center;
+        height: 95%;
+        width: 100%;
+    }
+
+    #ilustracoesPerfumesAVenda {
+        height: 250px;
+        width: 250px;
+    }
+
+    #florEmAmostra {
+        width: 225px;
+    }
+
+    #opcoes-div {
+        display: none;
+    }
+
+    #descricaoDoPerfumeEmAmostra {
+        width: 80%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #descricoesPerfumesAVenda {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 85%;
+        width: 100%;
+        border-left: none;
+    }
+
+    #opcoes-divDois {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    #nomeDoPerfume {
+        font-size: 30px;
+    }
+
+
+    /* terceira parte */
+
+    #terceiroMenu {
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    #quintoPng {
+        width: 100%;
+        object-fit: cover;
+        object-position: -160px 0px;
+        display: block;
+    }
+
+    #marcaTres {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        font-size: 23px;
+        color: white;
+    }
+
+    #conteudoDaImagemTres {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 40%;
+        width: 90%;
+    }
+
+    #htres-terceiraParte {
+        width: 100%;
+        font-size: 23px;
+        color: white;
+    }
+
+    .texto {
+        font-size: 16px;
+        color: white;
+    }
+
+    .texto-repertorio {
+        width: 100%;
+        font-size: 16px;
+        color: white;
+    }
+
+    #repertorio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        height: 10%;
+        width: 90%;
+        color: white;
+    }
+
+    #texto-repertorio-autora {
+        font-size: 15px;
+    }
+
+
+    /* quarto parte */
+
+    #quartaParte {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #quartoMenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        position: relative;
+        right: 0%;
+        height: 50%;
+        width: 100%;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        background: linear-gradient(to top, rgb(55, 98, 83), rgb(55, 98, 83), rgb(55, 98, 83), rgb(55, 98, 83), rgb(55, 98, 83), transparent);
+    }
+
+    #sextoPng {
+        position: absolute;
+        height: 60%;
+        width: 150%;
+        object-fit: cover;
+        object-position: -30px 0px;
+        display: block;
+    }
+
+    #marcaQuatro {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 250px;
+        font-size: 23px;
+    }
+
+    #conteudoDaImagemQuatro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 80%;
+        width: 90%;
+    }
+
+    #hdois-quartaParte {
+        width: 90%;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .texto-quatro {
+        width: 90%;
+        font-size: 15px;
+        color: white;
+        text-align: center;
+    }
+
+    /* quinta parte */
+
+    #quintaParte {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    #marcaQuinta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        height: auto;
+        width: 250px;
+        z-index: -2;
+        color: white;
+    }
+
+
+    #marcaQuintaResponsivo {
+        display: flex;
+        color: white;
+        font-size: 23px;
+    }
+
+    #quintoMenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+    }
+
+    #perguntasFrequentes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 50%;
+        width: 100%;
+        border: none;
+        background-color: rgb(224, 102, 66);
+    }
+
+    #perguntasERespostas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 80%;
+        width: 90%;
+    }
+
+    .pergunta-quinto {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        color: white;
+    }
+
+    .texto-quinto {
+        display: none;
+        width: 100%;
+        font-size: 13px;
+        color: white;
+    }
+
+    .hdois-quintaParte {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 23px;
+        width: 85%;
+        color: white;
+    }
+
+    #amadoPorTodos {
+        display: none;
+    }
+
+    #amadoPorTodosResponsivo {
+        display: flex;
+        color: white;
+    }
+
+    .setas {
+        display: flex;
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+    }
+
+
+    /* avaliacoes */
+
+    #avaliacoes-amadoPorTodos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 50%;
+        width: 100%;
+        background-color: rgb(55, 98, 83);
+    }
+
+    #opinioesDosOutros-cardsDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cardsDeOpinioes {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: auto;
+        width: 90%;
+    }
+
+    .iconesDeOpinioes {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+
+    #primeiroIconeDeOpinioes {
+        object-position: 0px -8px;
+    }
+
+    #segundoIconeDeOpinioes {
+        object-position: -12px 0px;
+    }
+
+    #terceiroIconeDeOpinioes {
+        object-position: -12px 0px;
+    }
+
+    #quartoIconeDeOpinioes {
+        object-position: -13px 0px;
+    }
+
+    .opinioesEEstrelas {
+        width: 80%;
+    }
+
+    .descricoesDasOpinioes {
+        font-size: 13px;
+        color: white;
+    }
+
+    .estrelaOpiniao {
+        width: 16px;
+        --filtroDasEstrelas: hue-rotate(140deg) saturate(100%);
+        filter: var(--filtroDasEstrelas);
+    }
+}
