@@ -73,7 +73,10 @@ main {
 
 #primeiroPng {
     height: 100%;
-    width: 70%;
+    width: 68%;
+    object-fit: cover;
+    object-position: 40px -30px;
+    display: block;
 }
 
 #conteudoDaImagemUm {
@@ -165,7 +168,7 @@ footer {
     transform: translateX(-30px);
 }
 
-.estrela{
+.estrela {
     filter: var(--filtroDasEstrelas);
 }
 
@@ -283,28 +286,39 @@ footer {
 #quintoPng {
     height: 100%;
     width: 70%;
+    object-fit: cover;
+    object-position: 0px 0px;
+    display: block;
 }
 
 #marcaTres {
-    width: 90%;
+    width: 75%;
     font-size: 30px;
 }
 
 #conteudoDaImagemTres {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+}
+
+#textoExplicativoTerceiroMenu {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     height: 40%;
-    width: 90%;
+    width: 75%;
 }
 
 #htres-terceiraParte {
-    width: 80%;
+    width: 100%;
     font-size: 30px;
 }
 
 .texto {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .texto-repertorio {
@@ -352,6 +366,9 @@ footer {
     position: absolute;
     height: 100%;
     width: 70%;
+    object-fit: cover;
+    object-position: -150px 0px;
+    display: block;
 }
 
 #marcaQuatro {

@@ -168,6 +168,8 @@
     /* terceira parte */
 
     #terceiroMenu {
+        align-items: center;
+        justify-content: start;
         height: 100%;
         width: 100%;
         background-color: transparent;
@@ -182,7 +184,9 @@
 
     #marcaTres {
         display: flex;
+        align-items: center;
         justify-content: center;
+        height: 10%;
         width: 90%;
         font-size: 23px;
         color: white;
@@ -191,8 +195,16 @@
     #conteudoDaImagemTres {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 60%;
+    }
+
+    #textoExplicativoTerceiroMenu {
+        display: flex;
+        flex-direction: column;
         justify-content: space-between;
-        height: 40%;
+        height: 60%;
         width: 90%;
     }
 
@@ -203,13 +215,13 @@
     }
 
     .texto {
-        font-size: 16px;
+        font-size: 15.3px;
         color: white;
     }
 
     .texto-repertorio {
         width: 100%;
-        font-size: 16px;
+        font-size: 15.3px;
         color: white;
     }
 
@@ -259,7 +271,7 @@
         height: 60%;
         width: 100%;
         object-fit: cover;
-        object-position: -120px 0px;
+        object-position: -130px 0px;
         display: block;
     }
 
@@ -284,7 +296,7 @@
     #hdois-quartaParte {
         width: 90%;
         color: white;
-        font-size: 17px;
+        font-size: 20px;
         text-align: center;
     }
 
