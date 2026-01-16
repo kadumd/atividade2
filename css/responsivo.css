@@ -268,10 +268,10 @@
 
     #sextoPng {
         position: absolute;
-        height: 65%;
+        height: 67%;
         width: 100%;
         object-fit: cover;
-        object-position: -150px -10px;
+        object-position: -160px -10px;
         display: block;
     }
 
