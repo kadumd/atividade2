@@ -340,7 +340,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         height: 100%;
         width: 100%;
     }
@@ -360,21 +360,25 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
-        height: 80%;
+        justify-content: start;
+        height: 70%;
         width: 90%;
     }
 
     .pergunta-quinto {
         display: flex;
         align-items: center;
-        font-size: 18px;
+        justify-content: space-between;
+        width: 97%;
+        font-size: 16px;
         color: white;
+        margin-bottom: 5px;
+        margin-top: 10px;
     }
 
     .texto-quinto {
         display: none;
-        width: 100%;
+        width: 97%;
         font-size: 13px;
         color: white;
     }
@@ -393,6 +397,7 @@
     }
 
     #amadoPorTodosResponsivo {
+        position: absolute;
         display: flex;
         color: white;
     }
@@ -404,6 +409,14 @@
         cursor: pointer;
     }
 
+    /* barraDeDivisoria */
+
+    #barraDeDivisoria {
+        display: none;
+        height: 60%;
+        width: 2px;
+        background-color: var(--borderCinzaDivisao);
+    }
 
     /* avaliacoes */
 

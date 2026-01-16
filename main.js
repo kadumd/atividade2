@@ -79,21 +79,21 @@ function clickSetasFuncao(params) {
 
 // dark mode 
 
-const html = document.querySelector('html')
+// const html = document.querySelector('html')
 
-function mostrarHora() {
-    const agora = new Date();
-    let horas = agora.getHours();
+// function mostrarHora() {
+//     const agora = new Date();
+//     let horas = agora.getHours();
 
-    horas = horas.toString().padStart(2, '0');
-    if (horas > 5 && horas <18) {
-        html.classList.remove("dark-mode")
-    } else {
-        html.classList.add("dark-mode")
-    }
-    console.log(horas)
-}
+//     horas = horas.toString().padStart(2, '0');
+//     if (horas > 5 && horas <18) {
+//         html.classList.remove("dark-mode")
+//     } else {
+//         html.classList.add("dark-mode")
+//     }
+//     console.log(horas)
+// }
 
-setInterval(mostrarHora, 1000);
+// setInterval(mostrarHora, 1000);
 
-mostrarHora();
+// mostrarHora();

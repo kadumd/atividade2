@@ -14,6 +14,10 @@
     --borderCinzaDivisao: solid rgb(124, 124, 124) 2px;
 
     --bordaDosMenus: 75px;
+
+    --barraDeDivisao: flex;
+
+    --tamanhoDasDivsDePerguntasEAvaliacoes: calc(50% - 1px);
 }
 
 .dark-mode:root {
@@ -30,6 +34,10 @@
     --borderCinzaDivisao: none;
 
     --bordaDosMenus: none;
+
+    --barraDeDivisao: none;
+
+    --tamanhoDasDivsDePerguntasEAvaliacoes: 50%;
 }
 
 body {
@@ -308,7 +316,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 40%;
+    height: 45%;
     width: 75%;
 }
 
@@ -452,7 +460,7 @@ footer {
 
 #quintoMenu {
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: space-between;
     height: 90%;
     width: 100%;
@@ -464,8 +472,7 @@ footer {
     align-items: center;
     justify-content: space-around;
     height: 100%;
-    width: 50%;
-    border-right: var(--borderCinzaDivisao);
+    width: var(--tamanhoDasDivsDePerguntasEAvaliacoes);
     background-color: var(--background-quintoMenuUm);
 }
 
@@ -492,6 +499,14 @@ footer {
     font-size: 40px;
 }
 
+/* barraDeDivisoria */
+
+#barraDeDivisoria {
+    display: var(--barraDeDivisao);
+    height: 80%;
+    width: 2px;
+    background-color: rgb(124, 124, 124);
+}
 
 /* avaliacoes */
 
@@ -505,7 +520,7 @@ footer {
     align-items: center;
     justify-content: space-around;
     height: 100%;
-    width: 50%;
+    width: var(--tamanhoDasDivsDePerguntasEAvaliacoes);
     background-color: var(--background-quintoMenuDois);
 }
 
